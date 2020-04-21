@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/cardFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.kat4x.myfinanceapp.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/home_fragment" />
+    <fragment
+        android:id="@+id/cardFragment"
+        android:name="com.kat4x.myfinanceapp.ui.card.CardFragment"
+        android:label="Second"
+        tools:layout="@layout/card_fragment" />
+    <fragment
+        android:id="@+id/settingsFragment2"
+        android:name="com.kat4x.myfinanceapp.ui.settings.SettingsFragment"
+        android:label="settings_fragment"
+        tools:layout="@layout/settings_fragment" />
+</navigation>
